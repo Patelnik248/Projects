@@ -1,0 +1,127 @@
+*{
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    max-width:1497px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 25px;
+}
+.navigation{
+    display: flex;
+}
+
+
+button{
+    background-color: #5955b3;
+    border: 0px solid #000000;
+    color: #ffffff;
+    font-weight: 600;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+button:hover{
+    text-decoration: underline;
+    border: 1px solid #000000;
+    background-color: #fff;
+    color: #5955b3;
+    cursor: pointer;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    cursor: pointer;
+}
+a:hover{
+    color: #5955b3;
+    text-decoration: underline;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+.btn1{
+    padding: 10px 20px;
+    position: relative;
+    top: 0px;
+    right: -40px;
+    font-size: 15px;
+    font-style: normal;
+    
+}
+
+.btn2{
+    padding: 15px 30px;
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+    font-style: normal;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+}
+
+.mainsection{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 55px;
+}
+
+.left-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+}
+.heading{
+
+    font-size: 70px;
+    color: #3c2f60;
+    line-height: 80px;
+}
+.heading span{
+    color: #5955b3;
+}
+
+.left-section p{
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 28px;
+    line-height: 26px;
+    letter-spacing: 0.01em;
+    color: #828282;
+   
+}
+.right-section{
+    padding-right: 50px;
+    width: 50%;
+}
+
+.right-section img{
+    height: 600px;
+    width:fit-content;
+}
