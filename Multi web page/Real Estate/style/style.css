@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    background-color: #f6f8fa;
+    margin: 30px 100px;
+    background-image: url(../Assets/mainBackground.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size:contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 500px;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+.logo{
+    padding-left: 50px;
+}
+.heading{
+    margin-top:100px ;
+    margin-left: 50px;
+}
+
+.heading h1{
+    font-size: 90px;
+    color: #fff;
+}
+
+.heading p{
+    font-size: 25px;
+    color: #fff;
+}
+
+.heading button{
+    margin-top: 30px;
+    font-size: 25px;
+    padding: 15px 40px;
+    border-radius: 30px;
+    background-color: #6663e9;
+    color: #fff;
+    border: none;
+}
+
+.main{
+    margin-top: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoname{
+    z-index: 50;
+    position: relative;
+    top: -85px;
+    background-color:#fff;
+    border-radius: 35px;
+}
+
+.logolist{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 50px;
+    padding: 40px 30px;
+}
+
+.main-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    text-align: center;
+    font-size: 60px;
+}
+
+.card-container{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap ;
+    gap: 10px;
+}
+.cardimage{
+    margin-top: 80px;
+    height: 300px;
+    width: 270px;
+}
+
+.card-text{
+    height: fit-content;
+    width: fit-content;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000000;
+    gap: 25px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: -40px;
+    left: 20px;
+}
+.images{
+    height: 300px;
+    border-radius: 10px;
+    width: 270px;
+}
+
+.card-text div p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #6663e9;
+    margin-top: 5px;
+}
+
+.card-text div h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+.card-text button{
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 15px;
+    background-color: #6663e9;
+    border: none;
+    border-radius: 18px;
+    cursor: pointer;
+}
+
+.card-text button:hover{
+    background-color: #f6f8ff;
+    color: #6663e9;
+    text-decoration: underline;
+}
+.img1{
+    position: relative;
+    top: -20px;
+}
+
+.img3{
+    position: relative;
+    top: 20px;
+}
+
+.feature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feature1{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    gap: 30px;
+}
+
+.feature1-left,.feature1-right{
+    width: 50%;
+}
+
+.feature1-left,.feature2-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature1-left img:first-child{
+    height: 450px;
+    width: 450px;
+    margin-left: 270px;
+}
+
+.feature1-left img:last-child{
+    position: relative;
+    left: -370px;
+    top: -50px;
+    height: 300px;
+    width: 280px;
+    border-radius: 40px;
+}
+
+.feature1-right h2,.feature2-left h2{
+    font-size: 40px;
+}
+
+.feature1-right p,.feature2-left p{
+    margin-top: 25px;
+    font-size: 16px;
+}
+
+.feature1-right button,.feature2-left button{
+    margin-top: 30px;
+    background-color: #6663e9;
+    border: none;
+    font-size: 17px;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.feature2-right img:first-child{
+    scale: 0.65;
+    margin-left: 200px;
+    position: relative;
+    right: -50px;
+}
+.feature2{
+    margin-top: -50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 60%;
+}
+.feature2-left{
+    width: 40%;
+    margin-left: 40px;
+}
+.feature2-right{
+    width: 60%;
+}
+.feature2-right img:last-child{
+    position: relative;
+    right: 440px;
+    top: -60px;
+    height: 300px;
+    width: 270px;
+    border-radius: 40px;
+}
+
+.feature2-left{
+    position: relative;
+    left: -70px;
+    text-align: left;
+}
+
+.Subscribe{
+    padding: 40px 50px;
+    border-radius: 40px;
+    background-color: #6663e9;
+    width: 60%;
+    position: relative;
+    left: -20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Subscribe h2{
+    font-size: 55px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.Subscribe p{
+    margin-top: 20px;
+    margin-left: 140px;
+    text-align: center;
+    width: 60%;
+    color: #fff;
+    font-size: 15px;
+}
+
+.email{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 30px;
+}
+
+.mail{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: #5654d1;
+    border-radius: 40px;
+    width: 468px;
+    height: 61px;
+    padding: 0 20px;
+}
+
+.mail input{
+    border: none;
+    background: transparent;
+
+}
+.sub-btn button{
+    background-color: #fff;
+    color: #6663e9;
+    font-size: 20px;    
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+footer{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    gap: 60px;
+}
+footer div:first-child{
+    width: 30%;
+}
+.footer-logo{
+    margin-top: -30px;
+    height: 150px;
+    width: 150px;
+}
+
+.social-meadia{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: -40px;
+    margin-left: -10px;
+}
+.social-meadia img{
+    scale: 0.7;
+}
+
+.text p{
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+footer div ul li{
+    margin-top: 15px;
+}
+footer div ul li:first-child{
+    font-size: 25px;
+    font-weight: 500;
+}
