@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #464343;
+    color: #fff;
+    margin: 10px;
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#container{
+    width: 100%;
+    max-width: 800px;
+    line-height: 1.5em;
+}
+#progress{
+    height: 15px;
+    width: 90vw;
+    background-color: #fff;
+    position: fixed;
+    top: 20px;
+}
+#progressbar{
+    transition: width 0.15s linear;
+    background-color: #c86c6c;
+    height: 100%;
+    width: 0%;
+}
